@@ -34,26 +34,26 @@ git clone https://github.com/JahnaviPonna/recipe-maker-ai.git
 cd AI-Recipe-Generator
 ```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 Make sure you have Python installed. Then, install the required libraries:
 ```bash
 pip install flask google-generativeai flask-cors
 ```
 
-3️⃣ Set Up Google Gemini AI API
+### 3️⃣ Set Up Google Gemini AI API
 Get an API key from Google AI Studio.
 Open app.py and replace the API key:
 ```python
 genai.configure(api_key="YOUR_GEMINI_API_KEY")
 ```
 
-4️⃣ Run the Flask Backend
+### 4️⃣ Run the Flask Backend
 ```bash
 python app.py
 ```
 The backend will start at http://127.0.0.1:5000
 
-5️⃣ Open the Frontend
+### 5️⃣ Open the Frontend
 Open index.html in your browser.
 Enter a dish name, ingredients, and choose a diet preference.
 Click "Generate Recipe" to see the AI-generated recipe.
