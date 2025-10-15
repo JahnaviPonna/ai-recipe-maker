@@ -66,10 +66,6 @@ AI Model: Google Gemini AI
 API Handling: Flask & Fetch API
 
 
-Hosting: Localhost📸 Screenshots (Optional)
-(Add images of your project in action!)
-
-
 📌 Future Enhancements
 ✅ Add voice input for recipe requests.
 ✅ Improve UI with animations & themes.
